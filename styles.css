@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Karla';
+  src: url("./assets/fonts/Karla-VariableFont_wght.ttf"); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-family: 'Karla';
+  font-size: 16px; }
+
+/* 375 × 667 (medium mobile) */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5eff5; }
+
+main {
+  width: 70vw;
+  margin: auto; }
+  main p, main ul {
+    font-size: 0.7rem; }
+  main .main__header {
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    background-color: white; }
+    main .main__header h1 {
+      font-size: 1rem;
+      color: #2ab2af; }
+    main .main__header h2, main .main__header p {
+      margin-top: 15px; }
+    main .main__header h2 {
+      font-size: 0.8rem;
+      color: #c0df34; }
+    main .main__header p {
+      color: #98a6bd;
+      line-height: 1.8; }
+  main .main__body {
+    display: flex;
+    flex-direction: column; }
+    main .main__body div {
+      width: 100%;
+      padding: 20px;
+      color: white;
+      background-color: #2ab2af; }
+    main .main__body h1, main .main__body span, main .main__body button {
+      font-size: 0.8rem; }
+    main .main__body .body__suscription .price {
+      margin-top: 15px;
+      padding: 0;
+      display: flex;
+      align-items: center; }
+      main .main__body .body__suscription .price span {
+        font-weight: 100;
+        margin-left: 20px; }
+    main .main__body .body__suscription h2 {
+      font-size: 1.6rem; }
+    main .main__body .body__suscription span {
+      color: #e5eff5; }
+    main .main__body .body__suscription p {
+      margin-top: 10px; }
+    main .main__body .body__suscription button {
+      width: 100%;
+      height: 30px;
+      margin-top: 20px;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      background-color: #c0df34;
+      cursor: pointer; }
+    main .main__body .body__whyus {
+      opacity: 0.7;
+      border-radius: 0 0 5px 5px; }
+      main .main__body .body__whyus ul {
+        list-style-type: none;
+        font-weight: 100;
+        line-height: 1.3;
+        margin-top: 15px; }
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+  display: none; }
+
+.attribution a {
+  color: #98a6bd;
+  font-weight: bold;
+  text-decoration: none; }
+
+/* 720 × 1280 (large mobile) */
+@media screen and (min-width: 720px) {
+  main {
+    width: 70vw; }
+    main p, main ul {
+      font-size: 1.4rem; }
+    main .main__header {
+      padding: 40px; }
+      main .main__header h1 {
+        font-size: 2rem; }
+      main .main__header h2 {
+        font-size: 1.5rem; }
+      main .main__header p {
+        line-height: 1.5; }
+    main .main__body div {
+      padding: 40px; }
+    main .main__body h1, main .main__body span, main .main__body button {
+      font-size: 1.6rem; }
+    main .main__body .body__suscription .price {
+      margin-top: 25px; }
+    main .main__body .body__suscription h2 {
+      font-size: 3.2rem; }
+    main .main__body .body__suscription p {
+      margin-top: 20px; }
+    main .main__body .body__suscription button {
+      height: 45px;
+      margin-top: 40px;
+      font-size: 1.5rem; }
+    main .main__body .body__whyus ul {
+      margin-top: 25px; }
+
+  .attribution {
+    display: block; } }
+/* Mobiles in landscape position  */
+@media screen and (max-width: 667px) and (orientation: landscape) {
+  main .main__body {
+    flex-direction: row; } }
+@media screen and (min-width: 668px) and (max-width: 1280px) and (orientation: landscape) {
+  main {
+    width: 60vw; }
+    main p, main ul {
+      font-size: 1rem; }
+    main .main__header {
+      padding: 25px; }
+      main .main__header h1 {
+        font-size: 1.5rem; }
+      main .main__header h2 {
+        font-size: 1.2rem; }
+    main .main__body {
+      flex-direction: row; }
+      main .main__body div {
+        padding: 25px; }
+      main .main__body h1, main .main__body span, main .main__body button {
+        font-size: 1.2rem; }
+      main .main__body .body__suscription .price {
+        margin-top: 15px; }
+      main .main__body .body__suscription h2 {
+        font-size: 2.2rem; }
+      main .main__body .body__suscription p {
+        margin-top: 10px; }
+      main .main__body .body__suscription button {
+        margin-top: 25px;
+        font-size: 1.2rem; }
+      main .main__body .body__whyus {
+        border-radius: 0 0 5px 0; }
+        main .main__body .body__whyus ul {
+          margin-top: 15px; } }
+/* 1366 × 768 (medium laptop) */
+@media screen and (min-width: 1366px) {
+  main {
+    width: 55vw; }
+    main p, main ul {
+      font-size: 1rem; }
+    main .main__header {
+      padding: 25px; }
+      main .main__header h1 {
+        font-size: 1.5rem; }
+      main .main__header h2 {
+        font-size: 1.2rem; }
+    main .main__body {
+      flex-direction: row; }
+      main .main__body div {
+        padding: 25px; }
+      main .main__body h1, main .main__body span, main .main__body button {
+        font-size: 1.2rem; }
+      main .main__body .body__suscription .price {
+        margin-top: 15px; }
+      main .main__body .body__suscription h2 {
+        font-size: 2.2rem; }
+      main .main__body .body__suscription p {
+        margin-top: 10px; }
+      main .main__body .body__suscription button {
+        margin-top: 25px;
+        font-size: 1.2rem; }
+      main .main__body .body__whyus {
+        border-radius: 0 0 5px 0; }
+        main .main__body .body__whyus ul {
+          margin-top: 15px; } }
+/* 1440 × 900 (large desktop) */
+@media screen and (min-width: 1440px) {
+  main {
+    width: 45vw; } }
+/* 1920 × 1080 (large desktop) */
+@media screen and (min-width: 1920px) {
+  main {
+    width: 40vw; } }
+/* Desktops in portrait position  */
+@media screen and (min-width: 768px) and (orientation: portrait) {
+  main {
+    width: 60vw; } }
+@media screen and (min-width: 1080px) and (orientation: portrait) {
+  main {
+    width: 50vw; } }
+
+/*# sourceMappingURL=styles.css.map */
